@@ -1,0 +1,41 @@
+
+  {{ partial "header.html" . }}
+  <body>
+    <div class="container">
+      {{ .Content }}
+      <div class="article-list">
+        {{ range .Paginator.Pages }}
+        <article class="article-list-block">
+          <img src="https://placeimg.com/336/177/nature" class="al-img">
+          <h3 class="title">
+            <a href="{{ .URL }}">{{ .Title }}</a>
+          </h3>
+        </article>
+        {{ end }}
+      </div>
+
+
+
+      <nav class="pagination is-centered">
+        {{ partial "pagination.html" . }}
+      </nav>
+
+      <!-- {{ partial "pagination.html" . }} -->
+      {{ partial "footer.html" . }}
+    </div>
+    <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+    <script type="text/javascript">
+      var elm = document.querySelector('.article-list');
+
+      var options = {
+        path: '.pagination-next',
+        append: '.article-list-block',
+        history: true,
+      };
+
+      var infScroll = new InfiniteScroll(elm, options);
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,134 @@
+.article-list {
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 0 0 -56px;
+}
+
+.article-list-block {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  line-height: normal;
+  width: 336px;
+  margin: 0 0 25px 56px;
+}
+
+.al-img {
+  display: block;
+  border-radius: 9px;
+  margin: 0 0 9px;
+  width: 336px;
+  height: 177px;
+}
+
+.al-title {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+/* html, body, div, span, object, iframe, */
+/* h1, h2, h3, h4, h5, h6, p, blockquote, pre, */
+/* abbr, address, cite, code, */
+/* del, dfn, em, img, ins, kbd, q, samp, */
+/* small, strong, sub, sup, var, */
+/* b, i, */
+/* dl, dt, dd, ol, ul, li, */
+/* fieldset, form, label, legend, */
+/* table, caption, tbody, tfoot, thead, tr, th, td, */
+/* article, aside, canvas, details, figcaption, figure, */ 
+/* footer, header, hgroup, menu, nav, section, summary, */
+/* time, mark, audio, video { */
+/*     margin:0; */
+/*     padding:0; */
+/*     border:0; */
+/*     outline:0; */
+/*     font-size:100%; */
+/*     vertical-align:baseline; */
+/*     background:transparent; */
+/* } */
+
+/* body { */
+/*     line-height:1; */
+/* } */
+
+/* article,aside,details,figcaption,figure, */
+/* footer,header,hgroup,menu,nav,section { */ 
+/*     display:block; */
+/* } */
+
+/* nav ul { */
+/*     list-style:none; */
+/* } */
+
+/* blockquote, q { */
+/*     quotes:none; */
+/* } */
+
+/* blockquote:before, blockquote:after, */
+/* q:before, q:after { */
+/*     content:''; */
+/*     content:none; */
+/* } */
+
+/* a { */
+/*     margin:0; */
+/*     padding:0; */
+/*     font-size:100%; */
+/*     vertical-align:baseline; */
+/*     background:transparent; */
+/* } */
+
+/* /1* change colours to suit your needs *1/ */
+/* ins { */
+/*     background-color:#ff9; */
+/*     color:#000; */
+/*     text-decoration:none; */
+/* } */
+
+/* /1* change colours to suit your needs *1/ */
+/* mark { */
+/*     background-color:#ff9; */
+/*     color:#000; */ 
+/*     font-style:italic; */
+/*     font-weight:bold; */
+/* } */
+
+/* del { */
+/*     text-decoration: line-through; */
+/* } */
+
+/* abbr[title], dfn[title] { */
+/*     border-bottom:1px dotted; */
+/*     cursor:help; */
+/* } */
+
+/* table { */
+/*     border-collapse:collapse; */
+/*     border-spacing:0; */
+/* } */
+
+/* /1* change border colour to suit your needs *1/ */
+/* hr { */
+/*     display:block; */
+/*     height:1px; */
+/*     border:0; */   
+/*     border-top:1px solid #cccccc; */
+/*     margin:1em 0; */
+/*     padding:0; */
+/* } */
+
+/* input, select { */
+/*     vertical-align:middle; */
+/* } */
+/* } */
+/* a img { */
+/*   border: 0; */
+/* } */
+/* a { */
+/*   text-decoration: none; */
+/* } */
+
